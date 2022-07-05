@@ -10,7 +10,7 @@ export default function Home (){
 
   // walletConnected keep track of user's wallet is connected or not
   const [walletConnected, setWalletConnected] = useState(false);
-  //joinedWhitelist keep track of whether the current metamask address has joined the whitelist or not
+  //joinedWhitelist keep track of whether the current metamask address has joined the whitelist or not!
   const [joinedWhitelist, setJoinedWhitelist] = useState(false);
   // loading is set to true when we are waiting for a transcation to get mined
   const [loading, setLoading] = useState(false);
